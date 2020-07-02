@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".View.fagment.fagment_login">
+    <EditText
+        android:id="@+id/uer"
+        android:layout_width="282dp"
+        android:layout_height="45dp"
+        android:hint="Tên đăng nhập"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_username"
+        android:textSize="14dp"
+        android:background="@drawable/boder"
+        tools:ignore="InvalidId" />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="282dp"
+        android:layout_height="45dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:background="@drawable/boder"
+        android:drawableLeft="@drawable/ic_password"
+        android:textSize="14dp"
+        tools:ignore="InvalidId" />
+    <Button
+        android:layout_marginLeft="35dp"
+        android:id="@+id/dangnhap"
+        android:text="Đăng nhập"
+        android:layout_width="260dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/buttom"
+        android:layout_height="45dp"/>
+
+</RelativeLayout>
