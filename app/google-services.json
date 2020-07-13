@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "763905380871",
+    "firebase_url": "https://appfood-d3ccc.firebaseio.com",
+    "project_id": "appfood-d3ccc",
+    "storage_bucket": "appfood-d3ccc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763905380871:android:2c3ae3c7b1687fb140d0a2",
+        "android_client_info": {
+          "package_name": "com.example.doan_appfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763905380871-fflj77omkr66trgjtjm7aai40im1hkto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doan_appfood",
+            "certificate_hash": "731b2fa20ac0fac06250b891b410864d037a546a"
+          }
+        },
+        {
+          "client_id": "763905380871-gbmgo9hra8eceiq0qh9temvrvb86f2qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmgdFIkcjuAD2tLYYAp3clruTKkrwo260"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763905380871-gbmgo9hra8eceiq0qh9temvrvb86f2qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

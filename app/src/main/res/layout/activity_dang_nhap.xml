@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@drawable/eos_m10_sample_1368"
-    android:alpha="0.5"
+
     android:layout_height="match_parent"
-    tools:context=".View.DangNhap">
+    tools:context=".Layout_class.Activity.DangNhap">
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabdangnhap"
         android:layout_marginTop="60dp"

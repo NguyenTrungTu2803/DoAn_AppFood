@@ -1,4 +1,4 @@
-package com.example.doan_appfood.View.fagment;
+package com.example.doan_appfood.Layout_class.fagment;
 
 
 import android.os.Bundle;
@@ -14,10 +14,10 @@ import com.example.doan_appfood.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class fagment_login extends Fragment {
+public class fagment_seafood extends Fragment {
 
 
-    public fagment_login() {
+    public fagment_seafood() {
         // Required empty public constructor
     }
 
@@ -26,8 +26,7 @@ public class fagment_login extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_fagment_login, container, false);
-        return view;
+        return inflater.inflate(R.layout.fragment_fagment_seafood, container, false);
     }
 
 }
