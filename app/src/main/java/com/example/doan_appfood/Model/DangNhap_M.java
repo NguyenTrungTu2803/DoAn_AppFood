@@ -14,7 +14,6 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 public class DangNhap_M {
 
@@ -27,7 +26,7 @@ public class DangNhap_M {
 
     private void ConnectFirebase(){
         dataFB = FirebaseDatabase.getInstance().getReference();
-        UserId = dataFB.push().getKey();
+        //UserId = dataFB.push().getKey();
     }
     private ModelResponseToPresenter callback;
 

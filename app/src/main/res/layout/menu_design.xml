@@ -40,10 +40,10 @@
 
     <TextView
         android:id="@+id/quantity"
-        android:layout_width="80dp"
+        android:layout_width="30dp"
         android:layout_height="48dp"
         android:layout_marginTop="110dp"
-        android:layout_marginLeft="235dp"
+        android:layout_marginLeft="265dp"
         android:textSize="15sp"
 
         />

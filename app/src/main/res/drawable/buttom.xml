@@ -6,7 +6,7 @@
     </solid>
     <!-- và đây là bán kính đường tròn ở 4 góc -->
     <corners
-        android:radius="10dp" >
+        android:radius="20dp" >
     </corners>
     <stroke
         android:width="2dp"

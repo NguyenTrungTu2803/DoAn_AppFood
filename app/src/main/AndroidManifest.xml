@@ -13,9 +13,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Layout_class.Activity.MainActivity"
-            android:theme="@style/AppTheme"
-            android:label="Menu">
-
+            android:label="Menu"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -41,7 +41,6 @@ public class fagment_login extends Fragment implements ViewLoginListener {
     private Button btn;
 
     private User_Cl userCl;
-    private DatabaseReference dataFB;
 
     public fagment_login() {
         // Required empty public constructor
@@ -57,7 +56,6 @@ public class fagment_login extends Fragment implements ViewLoginListener {
 
         dangNhap_p = new DangNhap_P(this);
 
-        dataFB = FirebaseDatabase.getInstance().getReference();
 
         findId();
         //SetErrol();

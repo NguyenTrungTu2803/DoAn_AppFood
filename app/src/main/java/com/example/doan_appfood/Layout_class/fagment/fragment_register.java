@@ -1,6 +1,7 @@
 package com.example.doan_appfood.Layout_class.fagment;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -15,6 +16,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.doan_appfood.Class.User_Cl;
+import com.example.doan_appfood.Layout_class.Activity.MainActivity;
 import com.example.doan_appfood.Model.DangNhap_M;
 import com.example.doan_appfood.Presenter.DangNhap_P;
 import com.example.doan_appfood.R;
@@ -77,6 +79,8 @@ public class fragment_register extends Fragment implements ViewRegisterListener 
     @Override
     public void onRegisterSuccess() {
         Toast.makeText(getActivity(),"Đăng ký thành công", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(getActivity(), MainActivity.class);
+        startActivity(intent);
     }
 
     @Override

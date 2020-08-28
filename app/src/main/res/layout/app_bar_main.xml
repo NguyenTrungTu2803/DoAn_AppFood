@@ -10,16 +10,18 @@
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/colorBlu"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.NoActionBar" />
 
     </com.google.android.material.appbar.AppBarLayout>
     <FrameLayout
+        android:layout_marginTop="?attr/actionBarSize"
         android:id="@+id/frg_container"
+        android:background="@drawable/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
